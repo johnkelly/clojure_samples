@@ -1,0 +1,15 @@
+(doc let)
+(let [x 42 y 32] (x * 2))
+(let [x 42 y 32] (* x 2))
+(let [x 42 y 32] (* y 2))
+y
+(get ["a" "b" "c"] 1)
+(get ["a" "b" "c"] 2)
+(get ["a" "b" "c"] 3)
+(+ nil 1)
+(apply int nil)
+(doc abs)
+(str ".")
+(str "1 book. " (map book->string books) ".")
+(str "1 book. " ".")
+exit

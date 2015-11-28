@@ -1,0 +1,9 @@
+(boolean "foo")
+(boolean ni)
+(boolean nil)
+(and "foo" "bar")
+(boolean (and "foo" "bar"))
+(boolean (or "foo" "bar"))
+ (or "foo" "bar")
+(def server-port (or user-input 80))
+exit

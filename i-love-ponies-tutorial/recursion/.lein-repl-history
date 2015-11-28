@@ -1,0 +1,8 @@
+clear
+exit
+(disj [1 2 3])
+(disj (seq [1 2 3]))
+(disj [1 2 3] 0)
+(<= 1 nil)
+(<= 1 (int nil))
+exit

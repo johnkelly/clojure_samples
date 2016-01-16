@@ -18,7 +18,7 @@
     n
     (+ (recursive (- n 1)) (recursive (- n 2)))))
 
-; (time (iterative 10)) "Elapsed time: 0.207049 msecs" 
+; (time (iterative 10)) "Elapsed time: 0.031959 msecs" 
 ; (time (recursive 10)) "Elapsed time: 0.055248 msecs" 
 
 ; (time (iterative 30)) "Elapsed time: 0.054099 msecs"  
